@@ -1,0 +1,89 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    background-image: linear-gradient(to right top , #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-size: cover;
+    
+
+}
+
+*, *:before , *:after{
+    box-sizing: inherit; 
+    font-weight: 400;   
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 400px;
+    border: solid;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    background: #eee;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttons{
+    display: none;
+    flex-direction: column;
+}
+
+
+
+
+
+button{
+    text-align: left;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border: border 2px;
+    
+    
+}
+
+
+
+
+
+
+#start{
+    width:100px;
+    align-self:center;
+    text-align: center;
+    background: black;
+    color: #eee;
+    cursor: pointer;
+}
+button[id="start"]:hover{
+    transform: scale(1.1);
+}
+
+
+button:hover{
+    background: black;
+
+    color: #eee;
+}
+
+#buttons{
+    display: none;
+    text-align: center;
+   
+}
+
+#question{
+    display: none;
+}
+
+#next,#prev{
+    width: 80px;
+}
+
+
+
+ 
